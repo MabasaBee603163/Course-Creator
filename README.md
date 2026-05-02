@@ -5,6 +5,11 @@ A multi-agent system built with Google's Agent Development Kit (ADK) and Agent-t
 ## Architecture
 
 This project uses a distributed microservices architecture where each agent runs in its own container and communicates via A2A:
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233910.png" width="800" alt="agent workflow">
+  <br>
+  <em>Agent Workflow Architecture</em>
+</p>
 
 *   **Orchestrator Service (`orchestrator`):** The main entry point. It manages the workflow using `LoopAgent` and `SequentialAgent`, and connects to other agents using `RemoteA2aAgent`.
 *   **Researcher Service (`researcher`):** A standalone agent that gathers information using Google Search.
@@ -81,3 +86,30 @@ To deploy to Google Cloud Run, you need to deploy each service individually and 
 
 3.  **Access:**
     Open the App's URL in your browser.
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233412.png" width="800" alt="AI Course Creator Interface 1">
+  <br>
+  <em>A look at the AI Course Creator in action (1)</em>
+</p>
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233432.png" width="800" alt="AI Course Creator Interface 2">
+  <br>
+  <em>A look at the AI Course Creator in action (2)</em>
+</p>
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233505.png" width="800" alt="AI Course Creator Interface 3">
+  <br>
+  <em>A look at the AI Course Creator in action (3)</em>
+</p>
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233528.png" width="800" alt="AI Course Creator Interface 4">
+  <br>
+  <em>A look at the AI Course Creator in action (4)</em>
+</p>
+<p align="center">
+  <img src="./assets/Screenshot 2026-05-02 233546.png" width="800" alt="AI Course Creator Interface 5">
+  <br>
+  <em>A look at the AI Course Creator in action (5)</em>
+</p>
+
+
